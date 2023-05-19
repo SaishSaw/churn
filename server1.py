@@ -13,9 +13,9 @@ def predict(gender, SeniorCitizen, Partner, Dependents, tenure,
         StreamingMovies, Contract, PaperlessBilling, PaymentMethod,
         MonthlyCharges, TotalCharges]])
     if prediction == 0:
-        return 'No Churn'
+        return 'No Churn Customer'
     else:
-        return 'Churn'
+        return 'Churn Customer'
 def main():
     st.title("Churn Prediction For Telecom")
     html_temp = """
